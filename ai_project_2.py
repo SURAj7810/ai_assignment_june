@@ -9,10 +9,3 @@ Original file is located at
 
 #Type 1
 print("Hello world")
-
-#Type 2
-print('Hello world')
-
-#Type 3
-a = "Hello world"
-print(a)
