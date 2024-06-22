@@ -14,6 +14,7 @@ def fibonacci_recursive(n):
         return 1
     else:
         return fibonacci_recursive(n-1) + fibonacci_recursive(n-2)
+        
 def fibonacci_iterative(n):
     fib_sequence = []
     a, b = 0, 1
@@ -22,7 +23,9 @@ def fibonacci_iterative(n):
         a, b = b, a + b
     return fib_sequence
 n = 15
+
 fib_sequence_recursive = [fibonacci_recursive(i) for i in range(n)]
 fib_sequence_iterative = fibonacci_iterative(n)
+
 print(f"First {n} Fibonacci numbers (recursive): {fib_sequence_recursive}")
 print(f"First {n} Fibonacci numbers (iterative): {fib_sequence_iterative}")
