@@ -7,5 +7,4 @@ Original file is located at
     https://colab.research.google.com/drive/124MUo0UZLdpUEvIAsFbDWb14rMaPUn-n
 """
 
-#Type 1
 print("Hello world")
